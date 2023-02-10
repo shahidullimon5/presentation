@@ -1,0 +1,230 @@
+/* common code start */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+/* common code end */
+
+/* header start */
+header {
+  background-color: #f7f7f7;
+  padding: 10px 0 15px;
+}
+
+.c_nav {
+}
+
+.logo {
+  margin-right: 3px;
+  padding-bottom: 10px;
+}
+.navbar-brand span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2e2e2d;
+  margin-top: 5px;
+}
+
+.ntoggle:focus {
+  box-shadow: none;
+}
+
+.menu ul li a {
+  margin: 0 25px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+.menu ul li a:hover {
+  color: #fd511a;
+}
+.searchbox{
+  padding: 5px;
+  margin-right: 25px;
+  width: 45%;
+  margin-top: 5px;
+}
+
+.btn_common {
+ display: inline-block;
+ padding: 5px 15px;
+ background-color: #fc5d35;
+ color: #f7f7f7;
+ font-size: 14px;
+ text-transform: uppercase;
+ border-radius: 0px;
+}
+
+.btn_common:hover {
+  background-color: black !important;
+  color: #ffffff;
+}
+
+.btn_signin {
+}
+
+/* header ends */
+
+/* banner start */
+.banner {
+ padding: 50px 0;
+ background-color: #f7f7f7;
+}
+
+.b_text {
+}
+
+.b_text h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.b_ptext {
+  margin: 45px 0;
+  line-height: 1.5;
+}
+.b_img {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.btn_link {
+  margin-right: 10px;
+  padding: 10px 0;
+  width: 150px;
+  height: 45px;
+  color: #f7f7f7;
+  background-color: #fc5d35;
+  border-radius: 0px;
+}
+.btn_link:hover {
+  color: #fd511a;
+  border: 1px solid black;
+}
+.btn_link1 {
+  margin-right: 10px;
+  padding: 10px 0;
+  width: 150px;
+  height: 45px;
+  color: #f7f7f7;
+  background-color: black;
+  border-radius: 0px;
+}
+.btn_link1:hover {
+  color: black !important;
+  border: 1px solid black;
+}
+/* banner end */
+
+/* services start */
+.services{
+   padding: 20px 0 0;
+}
+.c_heading{
+  font-size: 32px;
+  font-weight: bold;
+}
+.c_images{
+  width: 50px;
+  margin: 55px auto 5px auto;
+}
+.card_text{
+  margin: 5px 20px 30px;
+  justify-content: center;
+}
+.layout_padding2{
+ 
+}
+.card-deck{
+  
+}
+.row{
+ margin-top: 45px;
+ margin-bottom: 45px;
+
+}
+.extra_button{
+  margin-top: 45px;
+}
+.card {
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+}
+.card-title {
+  margin-top: 20px;
+  color: #fc5d35;
+}
+.card:hover {
+  cursor: pointer;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+}
+/* services end */
+
+/*fruits section start*/
+/*fruits section end*/
+/*footer section start*/
+.footer_section{
+  padding: 65px 0;
+}
+.footer_section ul {
+  padding: 0;
+}
+
+.footer_section ul li {
+  list-style-type: none;
+  margin: 3px 0;
+
+}
+
+.footer_section h5 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.social-box {
+  margin: 25px 0;
+}
+
+.social-box img {
+  width: 35px;
+}
+
+.form_container input {
+  width: 200px;
+  height: 30px;
+}
+
+.form_container button {
+  background-color: #fc5d35;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 5px 30px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+/*footer section end*/
+/*copyright section start*/
+.copyright_sec {
+  background-color: #efeded;
+  padding: 20px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.copyright_sec p {
+  color: #191818;
+  margin: 0;
+  text-align: center;
+}
+
+.copyright_sec a {
+  color: #191818;
+  text-decoration: none;
+}
+/*copyright section end*/

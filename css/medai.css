@@ -1,0 +1,75 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.form_container {
+		    padding: 0 4px;
+	}
+}
+/* header start */
+
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.searchbox {
+		width: 5%;
+		margin-left: 20px;
+	}
+	.btn_signin {
+		margin-left: 25px;
+	}
+	.b_img {
+		width: 75%;
+		margin: 0 auto;
+	}
+	.b_text {
+		text-align: center;
+		margin-top: 50px;
+	}
+	.all_card{
+		padding: 0 100px 0;
+	}
+	.c_middle{
+		margin: 30px 0;
+	}
+	.fruit_detail-box{
+		text-align: center;
+		margin-top: 40px;
+	}
+	.footer_section {
+		padding: 5px 0;
+	}
+	.social-box img {
+		width: 35px;
+	}
+
+}
+
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.form_container{
+		padding-top: 16px;
+	}
+
+}
+
+/* Extra Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.form_container{
+		padding-top: 16px;
+	}
+
+}
+
+/* Extra  Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+	.form_container input {
+		margin-left: 1px;
+	}
+	.form_container{
+		padding-top: 16px;
+	}
+}
